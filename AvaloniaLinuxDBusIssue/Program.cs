@@ -20,5 +20,5 @@ class Program
             .WithDeveloperTools()
 #endif
             .WithInterFont()
-            .LogToTrace();
+            .LogToDelegate(Console.WriteLine);
 }
