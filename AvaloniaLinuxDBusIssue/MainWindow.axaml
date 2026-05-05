@@ -5,5 +5,14 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AvaloniaLinuxDBusIssue.MainWindow"
         Title="AvaloniaLinuxDBusIssue">
-    Welcome to Avalonia!
+
+  <TextBox AcceptsReturn="True" TextWrapping="Wrap" Text="Right-click here">
+    <TextBox.ContextMenu>
+      <ContextMenu>
+        <MenuItem Header="Copy"/>
+        <MenuItem Header="Paste"/>
+      </ContextMenu>
+    </TextBox.ContextMenu>
+  </TextBox>
+
 </Window>
