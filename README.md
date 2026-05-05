@@ -1,6 +1,6 @@
 # AvaloniaLinuxDBusIssue
 
-Minimal example to reproduce the Avalonia DBus issue on Linux using the official Avalonia documentation:
+Minimal example to reproduce the Avalonia DBus issue on Linux (Ubuntu 26.04 LTS) using the official Avalonia documentation:
 
 - create an Avalonia app
 - add a context menu
